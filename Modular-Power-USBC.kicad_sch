@@ -3153,12 +3153,6 @@
 		(uuid "bee78fbf-b836-408a-8ed9-87bd018090a8")
 	)
 	(junction
-		(at 257.81 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3851989-95b7-471e-8b22-efc1e655760c")
-	)
-	(junction
 		(at 74.93 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3446,16 +3440,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 43.18) (xy 257.81 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3181f9da-2cb3-4b7c-992f-2e7e6dd9e1ae")
-	)
-	(wire
-		(pts
 			(xy 107.95 114.3) (xy 107.95 119.38)
 		)
 		(stroke
@@ -3543,16 +3527,6 @@
 			(type default)
 		)
 		(uuid "56360ba7-e372-4689-bc6f-ca39bf457865")
-	)
-	(wire
-		(pts
-			(xy 257.81 52.07) (xy 257.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56402601-7bdf-41a7-8b69-2553de0f5a73")
 	)
 	(wire
 		(pts
@@ -4276,16 +4250,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 257.81 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edcf4a83-6762-479a-b99f-d804f783bceb")
-	)
-	(wire
-		(pts
 			(xy 44.45 120.65) (xy 44.45 118.11)
 		)
 		(stroke
@@ -4326,7 +4290,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 40.64) (xy 257.81 43.18)
+			(xy 251.46 40.64) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 40.64 0)
+		(at 251.46 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4747,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "196af4c7-f426-4b33-bb42-3aafaca85e24")
 		(property "Reference" "#PWR020"
-			(at 257.81 44.45 0)
+			(at 251.46 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4722,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 257.81 35.56 0)
+			(at 251.46 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4768,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 40.64 0)
+			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 40.64 0)
+			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 40.64 0)
+			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,99 +5352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 257.81 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d977bed-86e6-4059-80e4-6c6d9cca9e2f")
-		(property "Reference" "C7"
-			(at 261.62 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF/25V"
-			(at 261.62 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 258.7752 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6119887"
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6d4d47e-fad9-48ee-b2de-2cce8a53c376")
-		)
-		(pin "1"
-			(uuid "c962ebf2-7a8b-48d8-9fce-3badab34a423")
-		)
-		(instances
-			(project "Modular-Power-USBC"
-				(path "/f2dd20e6-6351-4f8b-97a2-d33eb2b95f73"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 157.48 0)
 		(unit 1)
@@ -5635,84 +5506,6 @@
 			(project "Modular-Power-USBC"
 				(path "/f2dd20e6-6351-4f8b-97a2-d33eb2b95f73"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e941d2c-a2e0-4b1a-923e-d1fa887a761c")
-		(property "Reference" "#PWR019"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21a634df-68f3-4c92-b924-66b93a9df83e")
-		)
-		(instances
-			(project "Modular-Power-USBC"
-				(path "/f2dd20e6-6351-4f8b-97a2-d33eb2b95f73"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
