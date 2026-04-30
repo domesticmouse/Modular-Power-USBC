@@ -459,7 +459,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4546,7 +4546,7 @@
 		(pin "A12"
 			(uuid "65e16167-3e96-4f98-b166-f76128451108")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "76318e72-7be4-434c-befd-6adbfba29b6e")
 		)
 		(instances
