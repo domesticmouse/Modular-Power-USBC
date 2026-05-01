@@ -4967,6 +4967,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2939725"
+			(at 194.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c43b545-34d5-4938-995c-c5b387fb45a6")
 		)
@@ -5198,6 +5209,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 91.44 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C116352"
 			(at 91.44 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5583,7 +5605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k5Ω"
+		(property "Value" "2k2Ω"
 			(at 116.84 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,6 +5639,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907303"
 			(at 114.3 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6285,6 +6318,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C116352"
+			(at 91.44 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32f6a24a-c1b2-43d3-8e59-8b54caa09db9")
 		)
@@ -6808,6 +6852,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7501274"
+			(at 137.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2f2fda5-fe63-4c26-8e1a-93ea2780f304")
 		)
@@ -7069,6 +7124,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 114.3 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8bea98c6-e7af-4f85-a5be-aefa872c5133")
 		)
@@ -7107,7 +7173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k5Ω"
+		(property "Value" "2k2Ω"
 			(at 132.08 167.6401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,6 +7207,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907303"
 			(at 134.62 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7914,6 +7991,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7501274"
+			(at 173.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "528c7fa0-672c-4333-a6b0-62426ec272fe")
 		)
@@ -8019,6 +8107,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84259"
+			(at 134.62 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de44294c-2666-4874-832e-06d65c03455b")
 		)
@@ -8090,6 +8189,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 245.11 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

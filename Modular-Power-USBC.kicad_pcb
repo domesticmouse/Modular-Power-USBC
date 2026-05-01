@@ -105,7 +105,7 @@
 				)
 			)
 		)
-		(property "Value" "2k5Ω"
+		(property "Value" "2k2Ω"
 			(at 3.82369 -0.033333 0)
 			(layer "F.SilkS")
 			(uuid "b8125f2f-aaae-4f41-83ae-8a83172dc8b1")
@@ -136,6 +136,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907303"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fe14f80-5e2a-4dd7-a00f-6c8316f3ef69")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1080,7 +1093,7 @@
 				)
 			)
 		)
-		(property "Value" "2k5Ω"
+		(property "Value" "2k2Ω"
 			(at 0 1.65 0)
 			(layer "F.SilkS")
 			(uuid "bfa4572b-46f0-4e1e-97f9-1835510063b0")
@@ -1111,6 +1124,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907303"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43f9df0b-8e9e-46e1-9b77-46978c837dc6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1421,6 +1447,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6860d44-3a0c-4912-ba16-e48685e7b3a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2114,6 +2153,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2927979a-3be9-454a-a7a8-edb7513d09b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b988a60a-0f32-4586-8ed5-349109071be0")
 		(sheetname "/")
@@ -2312,6 +2364,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2939725"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd640ae5-76e4-4c8e-85cf-381095493344")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2719,6 +2784,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C116352"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98a72f23-64b6-4fe3-b191-3223774ae3e8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3441,6 +3519,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4db11bfd-e496-4641-83a2-b283270e3dea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C84259"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5575f50-bf13-44f2-9af0-cb63af60fbfb")
 			(effects
 				(font
 					(size 1 1)
@@ -4174,6 +4265,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C116352"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f856be1-00d6-4fee-93e4-0efaef114eb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8bf6329f-b724-4d6a-b9e4-f8ff5f047c66")
 		(sheetname "/")
@@ -4439,6 +4543,7 @@
 		(property "Reference" "J2"
 			(at 1.27 2.38 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5abb711a-b482-4cf6-a9dd-04b1246901ec")
 			(effects
 				(font
@@ -4449,8 +4554,8 @@
 			)
 		)
 		(property "Value" "+12v Rail"
-			(at 1.27 -7.46 0)
-			(layer "B.Fab")
+			(at -2.96 -2.6 270)
+			(layer "B.SilkS")
 			(uuid "1674aa87-bb08-4479-97bf-83c2c84d394d")
 			(effects
 				(font
@@ -4481,6 +4586,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C7501274"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13e56acb-9d55-44f4-8bb7-38876aacb182")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4737,8 +4856,9 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J3"
-			(at 1.27 2.38 0)
+			(at 5.48 -1.8 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1af44b05-2cbc-4ea5-bf3e-3fed0b96fd7f")
 			(effects
 				(font
@@ -4749,8 +4869,8 @@
 			)
 		)
 		(property "Value" "-12V Rail"
-			(at 1.27 -7.46 0)
-			(layer "B.Fab")
+			(at 5.28 -2.5 270)
+			(layer "B.SilkS")
 			(uuid "6296ea03-653f-4591-94e7-08486266f8d7")
 			(effects
 				(font
@@ -4781,6 +4901,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C7501274"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ff8f663-d663-41cd-ab4d-423e432d2bd6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
