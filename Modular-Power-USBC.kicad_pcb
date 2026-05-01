@@ -3351,7 +3351,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76818"
+		(property "LCSC" "C307778"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5254,6 +5254,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "https://github.com/domesticmouse/Modular-Power-USBC"
+		(at 70.69 71.02 0)
+		(layer "B.SilkS")
+		(uuid "12df504d-69e4-4c05-acdf-a015067af50e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(segment
